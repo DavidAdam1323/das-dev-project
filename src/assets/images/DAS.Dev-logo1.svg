@@ -1,0 +1,51 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg361600" viewBox="0 0 1024 768" height="768px" width="1024px" version="1.1">
+  <metadata id="metadata361606">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs361604"></defs>
+  <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-55e6ff0d-e81b-4232-bbda-170d4d65d7ee">
+    <stop id="stop361581" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop361583" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-55e6ff0d-e81b-4232-bbda-170d4d65d7ee">
+    <stop id="stop361586" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop361588" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+    <stop id="stop361590" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <g id="logo-group">
+    <image xlink:href="" id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)"></image>
+    <g id="logo-center" transform="translate(0 0)">
+      <image xlink:href="" id="icon_container" x="66" y="0" style="display: none;"></image>
+      <g id="slogan" style="font-style:normal;font-weight:600;font-size:32px;line-height:1;font-family:'Open Sans';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+      <g id="title" style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Brandmark Sans 30 Color';font-variant-ligatures:normal;text-align:center;text-anchor:middle" transform="translate(0 0)">
+        <g id="path361609" aria-label="^D" transform="translate(0 328.77495999999996) translate(294.57138499999996 13.596800000000002) scale(1.79) translate(-390.53712 46.08)">
+          <path class="c3" d="M83.36824,116.91928h13.68121c10.94495,0,14.18518-3.60034,14.18518-17.7135 c0-14.18518-2.66418-17.56946-14.18518-17.56946H83.36824v-5.40051h13.68121c14.11316,0,19.58569,6.9126,19.58569,22.96997 c0,16.20142-6.26459,23.11401-19.58569,23.11401H83.36824V116.91928z" transform="translate(307.16888 -122.31581)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#eef2f5" stroke="#eef2f5"></path>
+        </g>
+        <g id="path361611" aria-label="^A" transform="translate(0 328.77495999999996) translate(353.2218626999999 13.596800000000002) scale(1.79) translate(-423.30275 46.08)">
+          <path class="c3" d="M105.04265,76.23581l15.84137,46.08398h-5.7605L101.0103,81.27621h-2.01617l-14.11322,41.04358h-5.7605 l15.84137-46.08398H105.04265z" transform="translate(344.18234 -122.31581)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#eef2f5" stroke="#eef2f5"></path>
+        </g>
+        <g id="path361613" aria-label="^S" transform="translate(0 328.77495999999996) translate(433.520135 13.596800000000002) scale(1.79) translate(-468.16212 46.08)">
+          <path class="c3" d="M88.33693,110.0787v1.29614c0,4.6084,1.08008,5.54443,5.54492,5.54443h12.16895 c4.6084,0,5.61621-1.08008,5.61621-5.54443v-0.64807c0-2.44824-0.35986-3.02429-2.37598-3.96033l-20.9541-10.00891 c-3.81592-1.87219-5.40039-4.82434-5.40039-8.85681v-0.64795c0-7.34473,3.96045-11.01697,10.94531-11.01697h12.16895 c7.34473,0,11.0166,4.03235,11.0166,11.01697v2.66418h-5.40039v-2.66418c0-4.46436-1.00781-5.61646-5.61621-5.61646H93.88185 c-4.46484,0-5.54492,1.00806-5.54492,5.61646v0.64795c0,2.37622,0.28809,2.95239,2.3042,3.96045l20.9541,10.00879 c3.67236,1.72815,5.47217,4.6084,5.47217,8.85681v0.64807c0,6.98462-3.67188,10.94495-11.0166,10.94495H93.88185 c-6.98486,0-10.94531-3.60034-10.94531-10.94495v-1.29614C82.93654,110.07869,88.33693,110.07869,88.33693,110.0787z" transform="translate(385.22558 -122.3158)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#eef2f5" stroke="#eef2f5"></path>
+        </g>
+        <g id="path361615" aria-label="." transform="translate(0 328.77495999999996) translate(500.22561269999994 79.3256) scale(1.79) translate(-505.42775 9.36)">
+          <path class="c1" d="M104.68166,122.31982H95.3213v-9.36084h9.36035v9.36084H104.68166z" transform="translate(410.10645 -122.31898)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8bbccc" stroke="#8bbccc"></path>
+        </g>
+        <g id="path361617" aria-label="D" transform="translate(0 328.77495999999996) translate(522.6285725 13.596800000000002) scale(1.79) translate(-517.94337 46.08)">
+          <path class="c1" d="M82.28828,112.95901h15.84137c9.14478,0,10.22485-1.1521,10.22485-13.75317 c0-12.81714-0.64801-13.60919-10.22485-13.60919H82.28828v-9.36081h15.84137c14.11322,0,19.58569,6.9126,19.58569,22.97 c0,16.20139-6.26453,23.11398-19.58569,23.11398H82.28828V112.95901z" transform="translate(435.65509 -122.31584)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8bbccc" stroke="#8bbccc"></path>
+        </g>
+        <g id="path361619" aria-label="e" transform="translate(0 328.77495999999996) translate(591.5995100000001 28.418000000000006) scale(1.79) translate(-556.47462 37.8)">
+          <path class="c1" d="M80.92043,103.45419c0-12.60107,6.84058-18.93762,19.08179-18.93762 c12.24097,0,19.08154,6.33655,19.08154,18.93762v3.2403H89.92128c0.93604,4.32037,3.96033,6.76855,7.92065,6.76855h4.32043 c2.95215,0,5.32837-1.3681,6.76855-3.81635h9.43286c-1.51221,9.00079-8.35278,13.10516-18.36157,13.10516 C87.2571,122.75185,80.92043,115.91128,80.92043,103.45419z M109.65089,98.77377c-1.224-3.38428-3.96021-5.32843-7.48853-5.32843 h-4.32043c-3.52832,0-6.26453,1.94415-7.48865,5.32843H109.65089z" transform="translate(475.55419 -122.31657)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8bbccc" stroke="#8bbccc"></path>
+        </g>
+        <g id="path361621" aria-label="v" transform="translate(0 328.77495999999996) translate(659.0601350000001 29.062399999999997) scale(1.79) translate(-594.16212 37.44)">
+          <path class="c1" d="M90.13722,84.87655l8.78467,28.58649h2.16016l8.78516-28.58649h9.79248l-11.521,37.44324H91.86525 l-11.521-37.44324C80.34425,84.87656,90.13722,84.87656,90.13722,84.87655z" transform="translate(513.81787 -122.31655)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8bbccc" stroke="#8bbccc"></path>
+        </g>
+      </g>
+      <image xlink:href="https://app.brandmark.io/nounpreview/141489.png" id="icon" x="66" y="0" style="display: none;"></image>
+    </g>
+  </g>
+</svg>
