@@ -1,9 +1,10 @@
 import styles from "./page.module.css";
+import Navbar from "./sections/Nabar/Navbar";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>David Adam Silva</h1>
-    </main>
+    <>
+      <Navbar />
+    </>
   );
 }
