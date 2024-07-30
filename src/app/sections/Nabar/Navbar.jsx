@@ -29,6 +29,10 @@ const Navbar = () => {
             size={75}
           />
         </div>
+        <div
+          className={`${styles.backdrop} ${isOpen ? styles.backdropOpen : ""}`}
+          onClick={toggleMenu}
+        ></div>
         <ul
           className={`${styles.navLinks} ${isOpen ? styles.navLinksOpen : ""}`}
         >
@@ -38,17 +42,17 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="about" onClick={toggleMenu}>
+            <a href="#about" onClick={toggleMenu}>
               About
             </a>
           </li>
           <li>
-            <a href="project" onClick={toggleMenu}>
+            <a href="#projects" onClick={toggleMenu}>
               Projects
             </a>
           </li>
           <li>
-            <a href="contact" onClick={toggleMenu}>
+            <a href="#contact" onClick={toggleMenu}>
               Contact
             </a>
           </li>
