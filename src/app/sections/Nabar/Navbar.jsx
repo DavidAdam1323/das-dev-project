@@ -13,37 +13,47 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={styles.navbar}>
+    <nav className={styles.navBar}>
       <div className={styles.logoContainer}>
         <a href="#home">
-          <Image src={logo} alt="DAS.Dev Logo" width={200} height={48} />
+          <Image src={logo} alt="DAS.Dev Logo" width={190} height={40} />
         </a>
       </div>
-      <div className={styles.hamburgerContainer}>
-        <Hamburger toggled={isOpen} toggle={toggleMenu} size={75} />
+      <div className={styles.mobileNavBarContainer}>
+        <div className={styles.hamburgerContainer}>
+          <Hamburger
+            toggled={isOpen}
+            toggle={toggleMenu}
+            rounded
+            distance="md"
+            size={75}
+          />
+        </div>
+        <ul
+          className={`${styles.navLinks} ${isOpen ? styles.navLinksOpen : ""}`}
+        >
+          <li>
+            <a href="#home" onClick={toggleMenu}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="about" onClick={toggleMenu}>
+              About
+            </a>
+          </li>
+          <li>
+            <a href="project" onClick={toggleMenu}>
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="contact" onClick={toggleMenu}>
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className={`${styles.navLinks} ${isOpen ? styles.navLinksOpen : ""}`}>
-        <li>
-          <a href="#home" onClick={toggleMenu}>
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="about" onClick={toggleMenu}>
-            About
-          </a>
-        </li>
-        <li>
-          <a href="project" onClick={toggleMenu}>
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="contact" onClick={toggleMenu}>
-            Contact
-          </a>
-        </li>
-      </ul>
     </nav>
   );
 };

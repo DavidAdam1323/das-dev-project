@@ -1,6 +1,21 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100vw;
+  height: 4.9rem;
+  padding-left: 8.4%;
+  padding-right: 8.4%;
+}
+
 .mobileNavBarContainer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0% 8.4% 0% 6.5%;
+}
+
+.navLinks {
+  display: none;
+}
+
+.navLinksOpen {
+  display: block;
 }
