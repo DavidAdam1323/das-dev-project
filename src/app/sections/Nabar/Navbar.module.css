@@ -1,26 +1,3 @@
-/* .navBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 100vw;
-  height: 4.9rem;
-  padding-left: 8.4%;
-  padding-right: 8.4%;
-}
-
-.mobileNavBarContainer {
-  display: flex;
-}
-
-.navLinks {
-  display: none;
-}
-
-.navLinksOpen {
-  display: block;
-} */
-
-/* Navbar.module.css */
 .navBar {
   display: flex;
   justify-content: space-between;
@@ -28,7 +5,7 @@
   width: 100%;
   height: 4.9rem;
   padding: 0 8.4%;
-  background-color: #fff; /* Adjust as necessary */
+  background-color: rgb(139, 188, 204);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1000;
@@ -49,19 +26,16 @@
 }
 
 .navLinks {
-  display: none;
   list-style: none;
   position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: #fff;
-  /* width: 100%; */
-  max-width: 300px; /* Adjust as necessary */
+  padding: 1rem 1rem;
+  background-color: rgb(139, 188, 204);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transform: translateY(-10px);
   opacity: 0;
+  top: 150%;
+  right: 0;
 }
 
 .navLinksOpen {
@@ -76,25 +50,7 @@
 
 .navLinks a {
   text-decoration: none;
-  color: #333; /* Adjust as necessary */
+  color: #333;
   font-size: 1.2rem;
   display: block;
 }
-
-/* .backdrop {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1050;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.backdropOpen {
-  display: block;
-  opacity: 1;
-} */
