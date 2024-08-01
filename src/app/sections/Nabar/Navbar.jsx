@@ -6,20 +6,26 @@ import logo from "../../../../public/logos/DAS-Dev-logo02.svg";
 import { Spin as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
+  // State to manage the open/close status of the mobile menu
   const [isOpen, setIsOpen] = useState(false);
 
+  // Function to toggle the mobile menu open/close status
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
     <nav className={styles.navBar}>
+      {/* Logo container */}
       <div className={styles.logoContainer}>
         <a href="#home">
           <Image src={logo} alt="DAS.Dev Logo" width={190} height={40} />
         </a>
       </div>
+
+      {/* Mobile navigation container */}
       <div className={styles.mobileNavBarContainer}>
+        {/* Hamburger icon for toggling mobile menu */}
         <div className={styles.hamburgerContainer}>
           <Hamburger
             toggled={isOpen}
@@ -29,10 +35,8 @@ const Navbar = () => {
             size={75}
           />
         </div>
-        <div
-          className={`${styles.backdrop} ${isOpen ? styles.backdropOpen : ""}`}
-          onClick={toggleMenu}
-        ></div>
+
+        {/* Navigation links list */}
         <ul
           className={`${styles.navLinks} ${isOpen ? styles.navLinksOpen : ""}`}
         >
