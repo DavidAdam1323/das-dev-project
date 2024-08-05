@@ -1,18 +1,61 @@
-.navBar {
+/* General styles for the navigation bar */
+.navContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  position: relative;
   width: 100%;
-  height: 4.9rem;
+  height: 5rem;
   padding: 0 8.4%;
   background-color: rgb(139, 188, 204);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navBar,
+.desktopNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgb(139, 188, 204);
   position: relative;
   z-index: 1000;
 }
 
 .logoContainer a {
   display: block;
+}
+
+.desktopNavLinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desktopNavLinks li {
+  margin-right: 20px;
+}
+
+.desktopNavLinks li:last-child {
+  margin-right: 0;
+}
+
+.desktopNavLinks a {
+  color: #333;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.desktopNavLinks a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
 }
 
 .mobileNavBarContainer {
@@ -29,9 +72,8 @@
   display: none;
   position: absolute;
   list-style: none;
-  padding: 1.5rem 0rem;
+  padding: 1.5rem 0;
   width: 14.7rem;
-  height: 24rem;
   top: 150%;
   right: 0;
   border-radius: 0.6rem;
@@ -48,6 +90,7 @@
 
 .navLinks li {
   display: flex;
+  align-items: center;
   padding: 1.5rem 2rem;
 }
 
@@ -63,4 +106,29 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+/* Media Queries */
+@media (min-width: 800px) {
+  .navBar {
+    display: none;
+  }
+
+  .desktopNavBar {
+    display: flex;
+  }
+
+  .mobileNavBarContainer {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .desktopNavBar {
+    display: none;
+  }
+
+  .mobileNavBarContainer {
+    display: flex;
+  }
 }
