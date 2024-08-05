@@ -3,14 +3,11 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import logo from "../../../../public/logos/DAS-Dev-logo02.svg";
-import homeIcon from "../../../../public/images/icons/home1.svg";
 import { Spin as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
-  // State to manage the open/close status of the mobile menu
   const [isOpen, setIsOpen] = useState(false);
 
-  // Function to toggle the mobile menu open/close status
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -26,7 +23,6 @@ const Navbar = () => {
 
       {/* Mobile navigation container */}
       <div className={styles.mobileNavBarContainer}>
-        {/* Hamburger icon for toggling mobile menu */}
         <div className={styles.hamburgerContainer}>
           <Hamburger
             toggled={isOpen}
@@ -34,6 +30,7 @@ const Navbar = () => {
             rounded
             distance="md"
             size={75}
+            label="Toggle menu"
           />
         </div>
 
@@ -43,23 +40,54 @@ const Navbar = () => {
         >
           <li>
             <a href="#home" onClick={toggleMenu}>
-              <Image src={homeIcon} alt="Home Icon" width={25} height={25} />
-              Home
+              <div className={styles.navList}>
+                <Image
+                  src="/images/icons/home1.svg"
+                  alt="Home Icon"
+                  width={25}
+                  height={25}
+                />
+                <h1>Home</h1>
+              </div>
             </a>
           </li>
           <li>
             <a href="#about" onClick={toggleMenu}>
-              About
+              <div className={styles.navList}>
+                <Image
+                  src="/images/icons/about1.svg"
+                  alt="About Icon"
+                  width={25}
+                  height={25}
+                />
+                <h1>About</h1>
+              </div>
             </a>
           </li>
           <li>
             <a href="#projects" onClick={toggleMenu}>
-              Projects
+              <div className={styles.navList}>
+                <Image
+                  src="/images/icons/project1.svg"
+                  alt="Projects Icon"
+                  width={25}
+                  height={25}
+                />
+                <h1>Projects</h1>
+              </div>
             </a>
           </li>
           <li>
             <a href="#contact" onClick={toggleMenu}>
-              Contact
+              <div className={styles.navList}>
+                <Image
+                  src="/images/icons/contact1.svg"
+                  alt="Contact Icon"
+                  width={25}
+                  height={25}
+                />
+                <h1>Contact</h1>
+              </div>
             </a>
           </li>
         </ul>

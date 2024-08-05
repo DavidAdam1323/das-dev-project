@@ -26,29 +26,29 @@
 }
 
 .navLinks {
-  list-style: none;
+  display: none;
   position: absolute;
-  width: 12rem;
-  height: 25rem;
+  list-style: none;
+  padding: 1.5rem 0rem;
+  width: 14.7rem;
+  height: 24rem;
+  top: 150%;
+  right: 0;
+  border-radius: 0.6rem;
   background-color: rgb(139, 188, 204);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transform: translateY(-10px);
-  opacity: 0;
-  top: 150%;
-  right: 0;
-  border-radius: 8px;
-  display: none;
 }
 
 .navLinksOpen {
   display: block;
   transform: translateY(0);
-  opacity: 1;
 }
 
 .navLinks li {
-  padding: 0.5rem 1rem;
+  display: flex;
+  padding: 1.5rem 2rem;
 }
 
 .navLinks a {
@@ -57,4 +57,10 @@
   font-size: 1.2rem;
   display: block;
   transition: color 0.2s ease-in-out;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
