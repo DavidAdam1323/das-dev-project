@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import logo from "../../../../public/logos/DAS-Dev-logo02.svg";
+import homeIcon from "../../../../public/images/icons/home1.svg";
 import { Spin as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
@@ -42,6 +43,7 @@ const Navbar = () => {
         >
           <li>
             <a href="#home" onClick={toggleMenu}>
+              <Image src={homeIcon} alt="Home Icon" width={25} height={25} />
               Home
             </a>
           </li>

@@ -28,7 +28,8 @@
 .navLinks {
   list-style: none;
   position: absolute;
-  padding: 1rem 1rem;
+  width: 12rem;
+  height: 25rem;
   background-color: rgb(139, 188, 204);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
