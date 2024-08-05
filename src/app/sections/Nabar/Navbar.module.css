@@ -1,4 +1,3 @@
-/* General styles for the navigation bar */
 .navContainer {
   display: flex;
   justify-content: center;
@@ -108,7 +107,6 @@
   gap: 1.5rem;
 }
 
-/* Media Queries */
 @media (min-width: 800px) {
   .navBar {
     display: none;
