@@ -75,7 +75,7 @@ const Navbar = () => {
                       width={25}
                       height={25}
                     />
-                    <h1>Home</h1>
+                    <p>Home</p>
                   </div>
                 </a>
               </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
                       width={25}
                       height={25}
                     />
-                    <h1>About</h1>
+                    <p>About</p>
                   </div>
                 </a>
               </li>
@@ -101,7 +101,7 @@ const Navbar = () => {
                       width={25}
                       height={25}
                     />
-                    <h1>Projects</h1>
+                    <p>Projects</p>
                   </div>
                 </a>
               </li>
@@ -114,7 +114,7 @@ const Navbar = () => {
                       width={25}
                       height={25}
                     />
-                    <h1>Contact</h1>
+                    <p>Contact</p>
                   </div>
                 </a>
               </li>
